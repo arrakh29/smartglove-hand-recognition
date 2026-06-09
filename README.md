@@ -1,27 +1,27 @@
 ````md
 # SmartGlove Hand Recognition
 
-Real-time hand posture and gesture recognition framework using multisensory smart gloves, Hybrid GCN-MLP, and Spatio-Temporal Graph Convolutional Networks (ST-GCN).
-
----
+Real-time hand posture and gesture recognition using multisensory smart gloves, Hybrid GCN-MLP, and Spatio-Temporal Graph Convolutional Networks (ST-GCN).
 
 ## Overview
 
 This project presents a dual-pipeline framework for real-time hand posture and gesture recognition using Rokoko Smart Gloves. The system combines graph-based spatial learning and spatio-temporal motion modelling to classify both static hand postures and dynamic hand gestures from wearable sensor data.
 
-The framework consists of:
-
 ### Posture Recognition Subsystem
 - Hybrid GCN-MLP architecture
-- Joint-angle and geometric feature extraction
+- Joint-angle feature extraction
+- Geometric feature extraction
 - Statistical window aggregation
+- Real-time posture classification
 
 ### Gesture Recognition Subsystem
 - ST-GCN with temporal feature fusion
-- Sequence normalisation and temporal resampling
-- Real-time motion trajectory modelling
+- Coordinate normalisation
+- Temporal resampling
+- Sequence-based motion modelling
+- Real-time gesture classification
 
-The system supports continuous real-time inference through UDP streaming from Rokoko Smart Gloves.
+The framework supports continuous real-time inference through UDP streaming from Rokoko Smart Gloves.
 
 ---
 
@@ -29,12 +29,13 @@ The system supports continuous real-time inference through UDP streaming from Ro
 
 - Real-time hand posture recognition
 - Real-time dynamic gesture recognition
-- Dual-pipeline architecture
+- Dual-pipeline recognition architecture
 - Graph-based skeletal feature learning
-- Temporal motion modelling
+- Temporal motion trajectory modelling
 - UDP-based smart glove streaming
 - Statistical feature aggregation
 - ST-GCN temporal fusion framework
+- Real-time inference pipeline
 
 ---
 
@@ -59,7 +60,7 @@ The system supports continuous real-time inference through UDP streaming from Ro
 
 ---
 
-## System Architecture
+## System Pipeline
 
 ### Posture Recognition Pipeline
 1. Joint coordinate acquisition
@@ -126,7 +127,7 @@ smartglove-hand-recognition/
 
 ## Real-Time Streaming
 
-The system receives skeletal data from Rokoko Smart Gloves through UDP streaming:
+The system receives skeletal data from Rokoko Smart Gloves using UDP streaming:
 
 ```text
 127.0.0.1:14043
