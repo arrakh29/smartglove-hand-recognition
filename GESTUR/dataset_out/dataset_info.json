@@ -1,0 +1,25 @@
+{
+  "num_samples": 385,
+  "seq_len": 30,
+  "joint_shape": [
+    385,
+    3,
+    30,
+    21
+  ],
+  "feat_shape": [
+    385,
+    44,
+    30
+  ],
+  "labels": [
+    "down",
+    "left",
+    "right",
+    "rotate_clockwise",
+    "rotate_counterclockwise",
+    "up",
+    "idle"
+  ],
+  "num_errors": 0
+}

@@ -1,0 +1,7 @@
+,inferiorpincer,palmar,pincer,radialdigital,radialpalmar,rake
+inferiorpincer,60,0,0,0,0,0
+palmar,0,60,0,0,0,0
+pincer,0,0,57,0,3,0
+radialdigital,1,1,0,58,0,0
+radialpalmar,0,0,0,0,60,0
+rake,0,0,0,0,0,60

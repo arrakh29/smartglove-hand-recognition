@@ -1,0 +1,8 @@
+,down,left,right,rotate_clockwise,rotate_counterclockwise,up,idle
+down,8,0,0,0,0,0,0
+left,0,8,0,0,0,0,0
+right,0,0,8,0,0,0,0
+rotate_clockwise,0,0,0,8,0,0,0
+rotate_counterclockwise,0,0,0,0,8,0,0
+up,0,0,0,0,0,8,0
+idle,0,0,0,0,0,0,8

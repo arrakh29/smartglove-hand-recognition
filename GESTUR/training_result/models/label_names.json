@@ -1,0 +1,9 @@
+[
+  "down",
+  "left",
+  "right",
+  "rotate_clockwise",
+  "rotate_counterclockwise",
+  "up",
+  "idle"
+]

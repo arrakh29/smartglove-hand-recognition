@@ -1,0 +1,12 @@
+                precision    recall  f1-score   support
+
+inferiorpincer     0.9836    1.0000    0.9917        60
+        palmar     0.9836    1.0000    0.9917        60
+        pincer     1.0000    0.9500    0.9744        60
+ radialdigital     1.0000    0.9667    0.9831        60
+  radialpalmar     0.9524    1.0000    0.9756        60
+          rake     1.0000    1.0000    1.0000        60
+
+      accuracy                         0.9861       360
+     macro avg     0.9866    0.9861    0.9861       360
+  weighted avg     0.9866    0.9861    0.9861       360

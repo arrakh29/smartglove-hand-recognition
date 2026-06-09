@@ -1,0 +1,13 @@
+                         precision    recall  f1-score   support
+
+                   down     1.0000    1.0000    1.0000         8
+                   left     1.0000    1.0000    1.0000         8
+                  right     1.0000    1.0000    1.0000         8
+       rotate_clockwise     1.0000    1.0000    1.0000         8
+rotate_counterclockwise     1.0000    1.0000    1.0000         8
+                     up     1.0000    1.0000    1.0000         8
+                   idle     1.0000    1.0000    1.0000         8
+
+               accuracy                         1.0000        56
+              macro avg     1.0000    1.0000    1.0000        56
+           weighted avg     1.0000    1.0000    1.0000        56
