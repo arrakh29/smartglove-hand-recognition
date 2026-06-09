@@ -124,7 +124,7 @@ UDP stream is expected at `127.0.0.1:14043` in Rokoko JSON packet format.
 ### Real-Time Inference
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=abc123xyz">
+  <a href="https://youtu.be/D5v2pas4N-U">
     <img src="https://img.youtube.com/vi/abc123xyz/maxresdefault.jpg" width="700">
   </a>
 </p>
