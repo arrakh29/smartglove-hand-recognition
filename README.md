@@ -119,20 +119,6 @@ UDP stream is expected at `127.0.0.1:14043` in Rokoko JSON packet format.
 
 ---
 
-## Citation
-
-If you use this work, please cite:
-
-```bibtex
-@inproceedings{smartglove2025,
-  title     = {Hand Posture and Gesture Recognition Using Dual-Branch GCN on Smart Gloves},
-  booktitle = {Proceedings of IEEE Conference},
-  year      = {2025}
-}
-```
-
----
-
 ## Acknowledgement
 
 This work was supported by the Department of Information and Computer Engineering, Politeknik Elektronika Negeri Surabaya (PENS).
