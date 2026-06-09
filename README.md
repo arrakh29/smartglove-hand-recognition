@@ -119,6 +119,16 @@ UDP stream is expected at `127.0.0.1:14043` in Rokoko JSON packet format.
 
 ---
 
-## Acknowledgement
+## Demo
 
-This work was supported by the Department of Information and Computer Engineering, Politeknik Elektronika Negeri Surabaya (PENS).
+### Real-Time Inference
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=abc123xyz">
+    <img src="https://img.youtube.com/vi/abc123xyz/maxresdefault.jpg" width="700">
+  </a>
+</p>
+
+<p align="center">
+  ▶ Click the image to watch the demo video
+</p>
